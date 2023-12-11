@@ -1,0 +1,10 @@
+.container {
+    display: grid;
+    grid-auto-rows: 5fr;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: cadetblue;
+}
+
+.container > * {
+    padding:1rem;
+}
