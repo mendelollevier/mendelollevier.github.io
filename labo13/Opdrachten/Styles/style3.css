@@ -1,0 +1,28 @@
+:root{
+    --widthImg: 100px;
+    --heightImg: 100px;
+    --leftImg: 100px;
+    --topImg: 100px;
+}
+
+img {
+    position: absolute;
+    width: var(--widthImg);
+    height: var(--heightImg);
+}
+#arch {
+    top: var(--topImg);
+    left: var(--leftImg);
+}
+#tech {
+    top: calc(100% - (var(--topImg)*2));
+    left: calc(100% - (var(--leftImg)*2));
+}
+#animals {
+    top: var(--topImg);
+    left: calc(100% - (var(--leftImg)*2));
+}
+#nature {
+    top: calc(100% - (var(--topImg)*2));
+    left: var(--leftImg);
+}

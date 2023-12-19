@@ -1,0 +1,98 @@
+html{
+    background-color: #3e4454;
+    color: #f05222;
+}
+
+body{
+    font-family: monospace;
+    font-size: 1.7em;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 15vh;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: #f05222;
+    text-decoration: none;
+}
+
+.navbar{
+    height: 15vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: end;
+    float: right;
+
+}
+
+.logo{
+    width: 10vh;
+    height: 10vh;
+    margin: 2vh;
+    float: left;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+    padding-left: 50px;
+}
+
+.menu a{
+    padding: 25px;
+    float: right;
+}
+
+.menu a:hover{
+    color: #73391e;
+    width: 100%;
+    transition: 0.5s ease;
+    float: right;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #f05222;
+}
+
+@media screen and (max-width: 750px){
+    .hamburger{
+        display: block;
+    }
+    .menu{
+        display: none;
+    }
+}
+
+.sidebar{
+    display: none;
+}
+
+.current{
+    font-size: 1.3em;
+}
