@@ -1,0 +1,31 @@
+body{
+    width: 95%;
+    margin: auto;
+}
+
+.grijs{
+    background-color: grey;
+}
+
+.lichtgrijs{
+    background-color: lightgray;
+}
+
+div[class*="col"]{
+    height: 200px;
+    width: 20%;
+    border: solid white 5px;
+    display: inline-block;
+}
+@media screen and (max-width: 992px){
+    div[class*="col"]{
+        width: 50%;
+        float: left;
+    }
+}
+@media screen and (max-width: 768px){
+    div[class*="col"]{
+        width: 100%;
+        float: left;
+    }
+}

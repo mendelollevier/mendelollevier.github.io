@@ -1,0 +1,21 @@
+body{
+    background-color: #2B2D42;
+    color: coral;
+}
+
+h1{
+    color: #f05222;
+    text-align: center;
+    font-size: 4em;
+}
+
+a{
+    color: antiquewhite;
+}
+
+.insta{
+    color: blue;
+}
+ .gram{
+     color: yellow;
+ }
